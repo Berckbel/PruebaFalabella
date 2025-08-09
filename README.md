@@ -8,6 +8,7 @@ This repository contains the technical test for Falabella.
 
 1. ![Swagger on django](image.png)
 2. ![Search Client](image-1.png)s
+3. ![MER](falabella_MER.png)
 
 ## Useful Commands
 
