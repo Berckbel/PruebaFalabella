@@ -1,10 +1,39 @@
-# Falabella Backend Technical Test
+# Falabella Technical Test
 
-This repository contains the solution to the Falabella technical test.
+This repository contains the technical test for Falabella.
 
-**Author:** Raul Mogollon
+**Author:** Raul (Software Engineer)
 
----
+## Screenshotss
+
+1. ![Swagger on django](image.png)
+2. ![Search Client](image-1.png)s
+
+## Useful Commands
+
+```bash
+# Create and activate virtual environment
+python3 -m virtualenv env-falabella
+source env-falabella/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Make migrations
+python manage.py makemigrations client product sale
+
+# Migrate apps
+python manage.py migrate
+
+# use the factory to populate the db
+python manage.py seed_data
+
+# Run Django development server
+python manage.py runserver
+
+# Run tests
+python manage.py test
+```
 
 ## Example JSON
 
@@ -76,9 +105,3 @@ This repository contains the solution to the Falabella technical test.
   },
 ]
 ```
-
----
-
-## Swagger Documentation
-
-![swager image](image.png)
